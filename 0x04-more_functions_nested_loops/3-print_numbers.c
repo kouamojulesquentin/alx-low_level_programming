@@ -6,13 +6,11 @@
  */
 void print_numbers(void)
 {
-char c;
 int i;
 
 for (i = 0; i < 10; i++)
 {
 _putchar(i);
 }
-c=36;
 _Putchar(c'\n');
 }
