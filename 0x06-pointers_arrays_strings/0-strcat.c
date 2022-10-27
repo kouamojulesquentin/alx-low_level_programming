@@ -18,13 +18,11 @@ while (s1[i] != '\0')
 {
 i++;
 }
-while (s2[j] != '\0')
+ while (src[k] != '\0')
 {
-s1[i] = s2[j];
+s1[i + j] = src[j];
 j++;
-i++;
 }
-
-s2[i] = '\0';
+s1[i + j] = '\0';
 return (s1);
 }
