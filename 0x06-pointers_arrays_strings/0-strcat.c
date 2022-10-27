@@ -18,7 +18,7 @@ while (s1[i] != '\0')
 {
 i++;
 }
- while (src[k] != '\0')
+while (src[j] != '\0')
 {
 s1[i + j] = src[j];
 j++;
