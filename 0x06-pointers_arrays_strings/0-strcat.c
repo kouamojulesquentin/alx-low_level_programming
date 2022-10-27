@@ -18,9 +18,9 @@ while (s1[i] != '\0')
 {
 i++;
 }
-while (src[j] != '\0')
+while (s2[j] != '\0')
 {
-s1[i + j] = src[j];
+s1[i + j] = s2[j];
 j++;
 }
 s1[i + j] = '\0';
