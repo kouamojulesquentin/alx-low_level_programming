@@ -13,7 +13,7 @@ char *_strncpy(char *s1, char *s2, int n)
 {
 int i = 0, j = 0;
 
-while (src[i++])
+while (s2[i++])
 j++;
 
 for (i = 0; s2[i] && i < n; i++)
